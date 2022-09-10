@@ -1,6 +1,8 @@
 body{
    font-family: sans-serif;
-  margin-top: 40px;
+   margin-top: 40px;
+   background-image: linear-gradient(to left, lightblue , lightyellow);
+
    
 }
 form{
