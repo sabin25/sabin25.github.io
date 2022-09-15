@@ -49,13 +49,15 @@ main {
     text-align: center;
 }
 
+footer {
+    color: rgb(206, 45, 45);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
 
-img1 {
-    height: 500px;
-    margin-left: 300px;
-    margin-right: auto;
 
-  }
 
  
   
