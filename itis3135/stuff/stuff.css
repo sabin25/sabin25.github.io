@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right,red, yellow);
+}
+
+ol {
+    line-height: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(170, 255, 0);
+  
+}
+
+h3 {
+    font-family: "Comic Sans MS", "Comic Sans", fantasy;
+    color: aliceblue;
+}
+
+ul {
+    font-family: Copperplate, Papyrus, fantasy;
+    display: table;
+    margin: 0px auto;
+}
