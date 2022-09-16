@@ -20,3 +20,7 @@ ul {
     display: table;
     margin: 0px auto;
 }
+
+li{
+    font-size: 20px;
+}
