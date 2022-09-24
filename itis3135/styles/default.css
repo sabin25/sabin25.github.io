@@ -1,25 +1,22 @@
 
 body {
-
-    
     text-align: center;
-
-   background-image: linear-gradient(red);
+    background-image: linear-gradient(red);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.999;
+    
   
-
 }
+
 header{
     width: 70%;
     height: 70px;
     background-color: #28363f;
     margin-left:15%;    
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 24px 24px 24px 24px;
-
 }
+
 h1{
     position:absolute;
     padding: 2px;
@@ -28,86 +25,29 @@ h1{
     margin-top: 10px;
     color: #588369;
     font-size: 35px;
-
 }
+
 ul{
     width: auto;
     float: right;
     margin-top: 8px;
     text-align: left;
 }
+
 li{
     display:inline-flex;
     padding: 15px 30px;
-
 }
 
-    
-a:hover{
-    color: #fffffe;
-    transition: 0.2s;
-}
+
+
 div{
     display: block;
     margin-left: 15%;
     margin-top: 2%;
-    float: left;
-    
-}
-div img{
-    opacity: 0.8;
-}
-.description{
-   float: center;
-   font-family: "Gill Sans", sans-serif;
-   width: 33.33%;
-   margin-left: 150px;
-   
-}
-
-
-   
-.footer{
-    margin-top: 5%;
-    margin-left: 1%;
-}   
-
-.footer ul{
-    margin-top: 0;
-    padding: 0;
-    font-size: 24px;
-    padding: 40px 0;
-    margin-bottom: 0;
-    text-align: center;
-
-}
-.footer ul li a{
-    text-decoration: none;
-    
-padding: 10px;
-    border-style:groove;
-    border-radius: 12px 12px 12px 12px;
- 
     
 
-}
-.footer ul li{
-    display: inline-block;
-    padding: 0 15px;
-
-
-
-
-}
-
-.checker{
-    margin-top:10%;
-   
-}
-.checker img{
-    text-align: center;
-}
-
+    
 
 
 
