@@ -1,31 +1,31 @@
 
 body {
     text-align: center;
-    background-image: linear-gradient(red);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  
+    background-color: rgb(70, 70, 70);
 }
 
 header{
     width: 70%;
     height: 70px;
-    background-color: #28363f;
     margin-left:15%;    
-    opacity: 0.8;
-    border-radius: 24px 24px 24px 24px;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  
+ 
 }
 
 h1{
     position:absolute;
-    padding: 2px;
-    float:left;
-    margin-left: 2%;
-    margin-top: 10px;
-    color: #588369;
+    margin-top: 15px;
+    color: #d9d9d9;
     font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 ul{
     width: auto;
@@ -37,6 +37,7 @@ ul{
 li{
     display:inline-flex;
     padding: 15px 30px;
+    color: bisque;
 }
 
 
@@ -45,7 +46,7 @@ div{
     display: block;
     margin-left: 15%;
     margin-top: 2%;
-    
+
 
     
 
