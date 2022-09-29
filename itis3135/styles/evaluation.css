@@ -75,12 +75,4 @@ h2::before {
     overflow:hidden;
     animation: animate 10s linear infinite;
 
-}
-@keyframes animate{
-    0%, 10%{
-        width: 0;
-    }
-  30% {
-        width: 100%;
-    }
-}
+
