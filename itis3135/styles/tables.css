@@ -39,7 +39,7 @@ nav li{
     position: relative;
 }
 nav a {
-    color:lightcyan;
+    color:rgb(21, 245, 245);
     text-decoration: dashed;
 }
 nav a:hover {
@@ -71,7 +71,7 @@ footer li{
     font-size: 20px;
 }
 footer a {
-    color:lightcyan;
+    color:rgb(21, 245, 245);
     text-decoration: none;
    
 }
