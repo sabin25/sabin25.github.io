@@ -1,8 +1,9 @@
-const num1 = parseInt(prompt('Enter the first number '));
-const num2 = parseInt(prompt('Enter the second number '));
+let firstInput = document.querySelector('#firstInput');
+let secondInput = document.querySelector('#secondInput');
+let btnAdd = document.querySelector('button');
+let result = document.querySelector('h2');
 
-//add two numbers
-const sum = num1 + num2;
-
-// display the sum
-console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+btnAdd.addEventListener('click', () =>{
+    let total = firstInput.value + secondInput.value;
+    result.innerText = total;
+})
