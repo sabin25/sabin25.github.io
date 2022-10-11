@@ -1,28 +1,8 @@
-let btnShow = document.querySelector('button');
-let output = document.querySelector('h1');
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
 
-btnShow.addEventListener('click', () => {
-    let today = new Date();
+//add two numbers
+const sum = num1 + num2;
 
-    let month =today.getMonth() + 1;
-    let year = today.getFullYear();
-    let date = today.getDate();
-
-    let current_date = `${month}/${date}/${year}`;
-    //output.innerText = current_date;
-
-    let hours = addZero(today.getHours());
-    let minutes = addZero(today.getMinutes());
-    let seconds = addZero(today.getSeconds());
-
-    let current_time = `${hours}:${minutes}:${seconds}`;
-    output.innerText = current_time;
-
-
-
-
-});
-
-function addZero(num){
-    return num < 10 ? `0${num}` : num;
-}
+// display the sum
+console.log(`The sum of ${num1} and ${num2} is ${sum}`);
