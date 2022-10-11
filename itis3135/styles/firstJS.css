@@ -92,11 +92,24 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
    }
+
+
 .container{
     width:400px;
     margin:auto;
 
 }
+.container2{
+    width:400px;
+    margin:auto;
+}
+
+gets rid of up down arrow
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
 
 
   
