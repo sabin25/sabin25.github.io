@@ -6,7 +6,7 @@ btnShow.addEventListener('click', () => {
 
     let month =today.getMonth() + 1;
     let year = today.getFullYear();
-    let data = today.getDate();
+    let date = today.getDate();
 
     let current_date = `${month}/${date}/${year}`;
     output.innerText = current_date;
