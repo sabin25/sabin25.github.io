@@ -15,7 +15,7 @@ btnShow.addEventListener('click', () => {
     let minutes = addZero(today.getMinutes());
     let seconds = addZero(today.getSeconds());
 
-    let current_time = `${hpours}:${minutes}:${seonds}`;
+    let current_time = `${hours}:${minutes}:${seconds}`;
     output.innerText = current_time;
 
 
