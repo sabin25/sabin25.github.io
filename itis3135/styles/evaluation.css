@@ -6,24 +6,31 @@ body {
 header{
  
     height: 70px;
-    margin-left:15%;    
+    text-align: center;
     
 }
-
-
-
 h1{
-    position:absolute;
-    margin-top: 15px;
-    color: #d9d9d9;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+     margin-top: 15px;
+     
+     color: #d9d9d9;
+     font-size: 35px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+h2{
+    color: #d9d9d9; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:4%;
 }
 
+
+
 nav{
-    margin-top: -70px;
+    margin-top: -60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float:right;
+  
 }
 
 nav ul {
@@ -33,9 +40,9 @@ nav ul {
 }
 nav li{
     display: inline-block;
-    margin: 0 35px;
-    padding-top: 25px;
-    margin-left: 10px;
+    margin: 0 40px;
+    padding-top: 50px;
+    margin-left: 40px;
     position: relative;
 }
 nav a {
@@ -84,16 +91,16 @@ footer a:hover {
 }
 
 p{
-    color: lightcyan;
+    color: rgb(94, 233, 180);
     font-style: italic;
 }
-h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(91, 196, 214);
+ul{
+    color: rgb(236, 156, 156);
 }
 
+
 p1,p3,p5,p7{
-    font-size: 37px;
+    font-size: 45px;
     color:honeydew;
 }
 p2,p4,p6,p8{

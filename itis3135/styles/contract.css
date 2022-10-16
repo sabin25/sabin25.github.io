@@ -12,19 +12,25 @@ figcaption{
     color: aliceblue;
 }
 
+header{
+ 
+    height: 70px;
+    text-align: center;
+    
+}
 h1{
-    position:relative;
+   margin: auto;
+   
     margin-top: 15px;
-    margin-bottom: 30px;
+    
     color: #d9d9d9;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 nav{
-    margin-top: -70px;
+    margin-top: -60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float:right;
+   
 }
 
 nav ul {
@@ -58,3 +64,50 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
+
+h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(241, 210, 169);
+    margin-top: 3%;
+    
+}
+.eula{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(241, 210, 169);
+    border: 5px;
+    margin-top: 3%;
+    margin-left: 33% ;
+    margin-right: 33% ;
+}   
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+    margin: 0 35px;
+    padding-top: 25px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 20px;
+}
+footer a {
+    color:rgb(21, 245, 245);
+    text-decoration: none;
+   
+}
+footer a:hover {
+    color: rgb(87, 160, 209);
+}
+
+.checker {
+   padding: 20px;
+}
+a {
+    color: ghostwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+   }
