@@ -12,18 +12,15 @@ header{
 
 h1{
     position:absolute;
-    margin-top: 15px;
-    text-align: center;
+    margin-top: 15px auto;
+    margin-left: 35%;
 
     color: #d9d9d9;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-nav{
-    margin-top: -70px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float:right;
+h2{
+color: #d9d9d9;
 }
 
 nav ul {
@@ -67,7 +64,7 @@ footer ul {
 footer li{
     display: inline-block;
     margin: 0 35px;
-    padding-top: 25px;
+    padding-top: 25%;
     margin-left: 10px;
     position: relative;
     font-size: 20px;
@@ -88,6 +85,11 @@ a {
     color: ghostwhite;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+   }
+   .contents a {
+    color:rgb(21, 245, 245);
+    border-style: double;
+    padding: 5px 5px 5px 5px;
    }
 
 
