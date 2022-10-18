@@ -3,7 +3,8 @@
 <head>
     <meta charset ="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/firstJS.css" rel ="stylesheet">
+    <link href="styles/default.css" rel ="stylesheet">
+    <script src="scripts/defaultscripts.js"></script>
     
 
     <title>
@@ -28,29 +29,17 @@
  
     
 <main>
+    <h2>First JavaScripts</h2>
+    
 <h3><p id ="p1"></p></h3>
 <script>
-     var name = prompt("What is your name?", "Type your name here");
+    var name = prompt("What is your name?", "Type your name here");
     alert("VG Creations welcomes you, " + name + "\nWe're glad you are doing great!");
 
 	var date = new Date();
 	document.getElementById("p1").innerHTML = date;
 </script>
 
-
-<div class="container">
-    <input type ="number" id="firstInput">
-    <input type="number" id="secondInput">
-    <button>Add</button>
-    <h4>result</h4>
-</div>
-
-<div class="container2">
-    <input type ="number" id="inputOne">
-    <input type="number" id="inputTwo">
-    <button>Subtract</button>
-    <h4>result</h4>
-</div>
 <script src = "scripts/scriptTest.js"></script>
 
 
