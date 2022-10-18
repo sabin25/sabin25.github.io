@@ -3,7 +3,7 @@
 <head>
     <meta charset ="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/default.css" rel ="stylesheet">
+    <link href="styles/firstscript.css" rel ="stylesheet">
     <script src="scripts/defaultscripts.js"></script>
     
 
@@ -22,16 +22,16 @@
         <li><a href="introduction.html">Introduction</a></li>
         <li><a href="tables.html">HTML Tables</a></li>
         <li><a href="forms.html">HTML Forms</a></li>
-        <li><a href="stuff/CR appy$.html">CRAPPY</a></li>
+        <li><a href="stuff/CRappy$.html">CRAPPY</a></li>
         <li><a href="website_evaluation.html">WebEvaluation</a></li>
       </ul>
     </nav>
  
     
-<main>
+
     <h2>First JavaScripts</h2>
     
-<h3><p id ="p1"></p></h3>
+<h3>
 <script>
     var name = prompt("What is your name?", "Type your name here");
     alert("VG Creations welcomes you, " + name + "\nWe're glad you are doing great!");
@@ -39,10 +39,47 @@
 	var date = new Date();
 	document.getElementById("p1").innerHTML = date;
 </script>
+</h3>
 
-<script src = "scripts/scriptTest.js"></script>
+<div id="userPrompt">
+    <form id="userInput">
+        <label>What is your name?</label>
+        <input type="text" name="firstname" id="firstname"><br>
+        <label>How are you feeling today?</label>
+        <input type="text" name="feeling" id="feeling"><br>
+ </form>
+
+
+
+
+
+
+
 
 
 </main>
+ <footer>
+    <ul>
+      <li><a href="https://github.com/sabin25/sabin25.github.io"><strong> githubRepo</strong></a></li>
+      <li><a href="https://www.freecodecamp.org/sabin25"><strong>FreeCodeCamp</strong></a></li>
+      <li><a href="https://www.charlotte.edu/"><strong>UNCC</strong></a></li>
+    </ul>
+  </footer> 
+  
+  <p><a href="sabinitis.com/sabinitis.html">&copy Designed by VG Creations</a></p>
+  
+  
+    
+  <div class="checker">
+    <a href = "https://validator.w3.org/check?uri=referer">
+      <img src = "button_validation_html5.png" width = "88" height = "31" alt ="validator html5">
+    </a>
+        
+    <a href = "https://jigsaw.w3.org/css-validator/check/referer">
+      <img src = "button_validation_css.png" width = "88" height = "31" alt ="validator css">   
+    </a>
+  </div>  
+
+
 </body>
 </html>
