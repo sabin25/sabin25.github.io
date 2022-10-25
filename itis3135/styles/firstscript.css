@@ -87,6 +87,7 @@ footer ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-top: 220px;
 }
 footer li{
     display: inline-block;
@@ -114,6 +115,20 @@ a {
     text-decoration: none;
    }
 
+input[type="text"]{
+    font-size: 25px;
+}
 
+label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    clear: left;
+    width: 150px;
+    text-align: center;
+    color: coral;
+}
+h3{
+    color: coral;
+}
 
   

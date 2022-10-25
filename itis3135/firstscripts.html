@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/firstscript.css" rel ="stylesheet">
     <script src="scripts/defaultscripts.js"></script>
-    
+   
 
     <title>
         First JavaScripts
@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div data-include="components/header.html"></div>
     <header>
         <h1>Sabin Shrestha - ITIS 3135</h1>
     </header>
@@ -28,28 +29,32 @@
     </nav>
  
     
-
+<main>
     <h2>First JavaScripts</h2>
     
-<h3>
+<h3 id="p1">
 <script>
-    var name = prompt("What is your name?", "Type your name here");
-    alert("VG Creations welcomes you, " + name + "\nWe're glad you are doing great!");
 
-	var date = new Date();
+    var date = new Date();
 	document.getElementById("p1").innerHTML = date;
 </script>
 </h3>
 
 <div id="userPrompt">
-    <form id="userInput">
+    <form id="userInfo">
         <label>What is your name?</label>
         <input type="text" name="firstname" id="firstname"><br>
         <label>How are you feeling today?</label>
         <input type="text" name="feeling" id="feeling"><br>
+        <button>Submit</button>
  </form>
+ </div>
 
-
+<div class="options">
+    <button onclick="getAccelaration()">dghdkgjdfbv</button>
+    <p id="fvg"></p>
+    
+</div>
 
 
 
@@ -58,7 +63,9 @@
 
 
 </main>
- <footer>
+<div data-include="components/footer.html"></div>        //this is redundant 
+ 
+<footer>
     <ul>
       <li><a href="https://github.com/sabin25/sabin25.github.io"><strong> githubRepo</strong></a></li>
       <li><a href="https://www.freecodecamp.org/sabin25"><strong>FreeCodeCamp</strong></a></li>
@@ -66,7 +73,7 @@
     </ul>
   </footer> 
   
-  <p><a href="sabinitis.com/sabinitis.html">&copy Designed by VG Creations</a></p>
+  <p><a href="sabinitis.com/sabinitis.html">&copy;Designed by VG Creations</a></p>
   
   
     

@@ -1,30 +1,25 @@
-var name;
-var feeling;
 
-function promptUser(){
-    var name = prompt("What is your name?", "Type your name here");
-    alert("VG Creations welcomes you, " + name + "\nWe're glad you are doing great!");
-
-	var date = new Date();
-	document.getElementById("p1").innerHTML = date;
+    function promptUser(){
+        var name = prompt("What is your name?", "Type your name here");
+        alert("VG Creations welcomes you, " + name + "\nWe're glad you are doing great!");
+    
+        var date = new Date();
+        document.getElementById("p1").innerHTML = date;
+    
+}
+function getTodaysDate() {
+    let date = new Date();
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    return days[date.getDay()] + ', ' + date.getDate() + ' ' + months[date.getMonth()] ;
 }
 
-async function questions(){ 
-    let evt = await new Promise((resolve, reject) => {
-        document.getElementById("userInput").addEventListener("Submit", (evt) => {
-            evt.preventDefault();
-            resolve(evt);
-        });
-    });
-    console.log("Submitted!");
-    const data = new FormData(evt.target);
-    name = data.get('first');
-    feeling = data.get('feeling');
-    document.getElementById("userPrompt").style = "visibility: hidden;";
-    document.getElementById("afterInput").style = "";
-    document.getElementById("date").innerHTML = "Today is " + getCurrentTime() + " on " +  getTodaysDate() + ", " + currentYear;
-    document.getElementById("welcome").innerHTML="Eshetu Wekjira designers welcomes you, " + getName()  + "!\n" +
-    "We're glad you are doing "+ getFeeling() + ".";
-    form = document.querySelector("signup");
-}
 
+function getAccelaration()
+{
+    var mile =prompt("Please enter a distance in miles")
+    var time =prompt("Please enter a time in second")
+    acceleration =mile/(time*time);
+    var Num =acceleration.toFixed(2);
+    document.getElementById("fvg").innerHTML ="Accelearation: " + Num + "mi / s2 ";
+}
