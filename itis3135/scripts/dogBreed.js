@@ -1,42 +1,58 @@
-const body = document.body
-const slides = document.querySelectorAll('.slide')
-const leftBtn = document.getElementById('left')
-const rightBtn = document.getElementById('right')
+var responsiveSlider = function(){
+    var slider = document.getElementById("slider");
+    var sliderWidth = slider.offsetWidth;
+    var slideList = document.getElementById("slideWrap");
+    var count = 1;
+    var items = slideList.querySelectorAll("li").length;
+    var prev = document.getElementById("prev");
+    var next = document.getElementById("next");
 
-let activeSlide = 0
+    window.addEventListener('resize', function() {
+        sliderWidth = slider.offsetWidth;
 
-rightBtn.addEventListener('click', () => {
-  activeSlide++
+    });
 
-  if (activeSlide > slides.length - 1) {
-    activeSlide = 0
-  }
+    var prevSlide = function(){
+        if (count > 1) {
+            count = count - 2;
+            slideList.style.left = "-" + count * sliderWidth + "px";
+            count++;
+        }
+        else if (count = 1){
+            count = items - 1;
+            slideList.style.left = "-" + count * sliderWidth + "px";
+            count++;
+        }
+    };
 
-  setBgToBody()
-  setActiveSlides()
-})
+    var nextSlide = function(){
+        if (count < items) {
+        
+            slideList.style.left = "-" + count * sliderWidth + "px";
+            count++;
+        }
+        else if (count = items){
+           
+            slideList.style.left = "0px";
+            count = 1;
+        }
+    };
+
+    next.addEventListener("click", function() {
+        nextSlide();
+    });
+    prev.addEventListener("click", function() {
+        prevSlide();
+    });
+
+    setInterval(function(){
+        nextSlide()
+    }, 5000);
+    
 
 
-leftBtn.addEventListener('click', () => {
-  activeSlide--
+};
 
-  if (activeSlide < 0 ) {
-    activeSlide = slides.length - 1
-  }
-
-  setBgToBody()
-  setActiveSlides()
-})
-
-setBgToBody()
-
-
-function setBgToBody() {
-  body.style.backgroundImage = slides[activeSlide].style.backgroundImage
-}
-
-function setActiveSlides() {
-  slides.forEach((slide) => slide.classList.remove('active'))
-
-  slides[activeSlide].classList.add('active')
+window.onload = function(){
+    responsiveSlider();
 }

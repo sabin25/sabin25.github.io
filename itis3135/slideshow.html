@@ -2,37 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/slide.css">
+    <title>Slide Show - Dog Breed</title>
 </head>
 <body>
+    <header>
+        <h1>Sabin Shrestha - ITIS 3135</h1>
+    </header>
 
+    <nav>
+        <ul>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="contract.html">Contract</a></li>
+          <li><a href="tables.html">HTML Tables</a></li>
+          <li><a href="forms.html">HTML Forms</a></li>
+          <li><a href="stuff/dukshdf!.html">CRAPPY</a></li>
+          <li><a href="firstscripts.html">FirstJavaScripts</a></li>
+          <li><a href="calculator_try.html">Calculator</a></li>
+          <li><a href="polygons.html">Polygon</a></li>
+          <li><a href="arrays.html">Arrays</a></li>
+          <li><a href="website_evaluation.html">WebEvaluation</a></li>
+        </ul>
+      </nav>
+      
+    <main>
+        <h2>Dog Breeds</h2>
     <div id="slider">
-        <img src="images/chihuahua.jpg" alt="chihuahua" width="700" height="600">
-    </div>
-    <div class="slide">
-        <img src="images/Corgi.jpg" alt="corgi"  width="700" height="600">
-    </div>
-    <div class="slide">
-        <img src="images/doberman.jpg" alt="doberman"  width="700" height="600">
-    </div>
-    <div class="slide">
-        <img src="images/GermanShepherd.jpg" alt="germansheperd"  width="700" height="600">
-    </div>
-    <div class="slide">
-        <img src="images/husky.jpg" alt="husky"  width="700" height="600">
-    </div>
-    <div class="slide">
-        <img src="images/labrador retriever.jpg" alt="labrador"  width="700" height="600">
-    </div>
-    <button class="arrow left-arrow" id="left">
-        <i class="fas fa-arrow-left"></i>
-       </button>
-   
-       <button class="arrow right-arrow" id="right">
-         <i class="fas fa-arrow-right"></i>
-        </button>
-    </div>
+        <ul id="slideWrap">
+            <li><img src="images/chihuahua.jpg" alt="chihuahua"></li>
+            <li><img src="images/Corgi.jpg" alt="corgi"></li>
+            <li><img src="images/doberman.jpg" alt="doberman"></li>
+            <li><img src="images/GermanShepherd.jpg" alt="germansheperd"></li>
+            <li><img src="images/husky.jpg" alt="husky"></li>
+            <li><img src="images/labrador retriever.jpg" alt="labrador"></li>
+            </ul>
+            <a id="prev" href="#">&#8810;</a>
+            <a id="next" href="#">&#8811;</a>
+        </div>
+
+        <div id="gallery">
+            <ul class="dogLinks">
+                <li><a href="images/chihuahua.jpg">Chihuahua</a></li>
+                <li><a href="images/Corgi.jpg">Corgi</a></li>
+                <li><a href="images/doberman.jpg">Doberman</a></li>
+                <li><a href="images/GermanShepherd.jpg">German Sheperd</a></li>
+                <li><a href="images/husky.jpg">Siberian Husky</a></li>
+                <li><a href="images/labrador retriever.jpg">Labrador</a></li>
+            </ul>
+        </div>
+
+    
+</main>
+<script src="scripts/dogBreed.js"></script>
+
+<footer>
+    <ul>
+      <li><a href="https://github.com/sabin25/sabin25.github.io"><strong> githubRepo</strong></a></li>
+      <li><a href="https://www.freecodecamp.org/sabin25"><strong>FreeCodeCamp</strong></a></li>
+      <li><a href="https://www.charlotte.edu/"><strong>UNCC</strong></a></li>
+    </ul>
+  </footer> 
+  
+  <p><a href="sabinitis.com/sabinitis.html">&copy;Designed by VG Creations</a></p>
+  
+  
+    
+  <div class="checker">
+    <a href = "https://validator.w3.org/check?uri=referer">
+      <img src = "button_validation_html5.png" width = "88" height = "31" alt ="validator html5">
+    </a>
+        
+    <a href = "https://jigsaw.w3.org/css-validator/check/referer">
+      <img src = "button_validation_css.png" width = "88" height = "31" alt ="validator css">   
+    </a>
+  </div>  
+  
+ 
 </body>
-</html>o
+</html>
