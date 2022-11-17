@@ -1,5 +1,6 @@
 Body {
-    margin: 0;;
+    margin: 0;
+    background-color: rgb(70, 70, 70);
 }
 
 *{
@@ -20,8 +21,8 @@ Body {
 .product .thumb-img .box {
     display: inline-block;
     width: 50px;
-    width:50px ;
-    border: 1px solid rgb(164, 164, 235);
+    height: 50px;
+    border: 2px solid rgba(218, 117, 201, 0.473);
     margin: 2px;
     cursor: pointer;
 
@@ -34,6 +35,7 @@ Body {
 
 
 .product .thumb-img .box.active {
-    border-color: blue;
-    ;
+    border-color: rgb(10, 10, 75);
+    
 }
+
