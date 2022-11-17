@@ -23,8 +23,18 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top:4%;
 }
+h3 {
+    text-align: center;
+}
 
-
+.first{
+    width: 900px;
+    margin: 0px auto;
+   background-color: coral;
+}
+.elem{
+    width: 300px;
+}
 ol{
     list-style:none;
 }
