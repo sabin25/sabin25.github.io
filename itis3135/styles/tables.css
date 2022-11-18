@@ -106,4 +106,16 @@ a {
     text-decoration: none;
    }
 
-
+.oddNames {
+    background-color: lightgray;
+   }
+.evenNames {
+    background-color: papayawhip;
+}
+.finalRow {
+    background-color: lightblue;
+}
+.employee{
+    width: 1500px;
+    background-color: coral;
+}
