@@ -24,3 +24,21 @@ ul {
 li{
     font-size: 20px;
 }
+footer a {
+    color:rgb(21, 245, 245);
+    text-decoration: none;
+   
+}
+footer a:hover {
+    color: rgb(87, 160, 209);
+}
+
+.checker {
+   padding: 20px;
+}
+a {
+    color: ghostwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+   }
+

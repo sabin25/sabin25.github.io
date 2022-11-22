@@ -18,7 +18,7 @@ h2{
 
 ul{
     text-align: center;
-    list-style:circle;
+    list-style: none;
     list-style-position:inside;
     color:rgb(224, 196, 125);
 }
