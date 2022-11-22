@@ -96,14 +96,13 @@ p{
 }
 ul{
     color: rgb(236, 156, 156);
+    list-style: none;
 }
 
 
-p1,p3,p5,p7{
-    font-size: 45px;
-    color:honeydew;
-}
-p2,p4,p6,p8{
+
+
+p{
     font-size: 25px;
     color:honeydew;
 }
