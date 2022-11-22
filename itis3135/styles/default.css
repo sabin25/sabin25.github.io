@@ -114,6 +114,37 @@ a {
     text-decoration: none;
    }
 
+   .peer1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 3px solid rgb(224, 236, 224);
+   border-style: dotted;
+    
+  }
+
+  
+  .peer2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 3px solid rgb(224, 236, 224);
+    margin-top: 30px;
+    border-style: dotted;
+}
+
+ 
+  .detail1 h3 {
+    color:gainsboro;
+  }
+  .detail2 h3 {
+    color: gainsboro;
+  }
+
+
+  .detail1, .detail2 ul {
+    list-style: inside;
+    color: darkkhaki;
+  }
+
 
 
   
