@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Open Sans', sans-serif;
+ 
 }
 
 nav{
@@ -147,3 +148,72 @@ form {
  #design {
     text-align: center;
  }
+
+ footer {
+    margin-top: 25%;
+ }
+
+ .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 15px;
+  }
+
+
+ .one {
+    display:inline-block;
+    padding: 10px;
+    background-color: #dddddd;
+  
+
+   
+ }
+ a>div { 
+    display: none; 
+}
+a:hover>div { 
+    display: block; 
+
+}
+.navbar__menu__item {
+    background-color: #dddddd;
+    padding:5px 35px 5px 34px ;
+    display:inline-block;
+}
+

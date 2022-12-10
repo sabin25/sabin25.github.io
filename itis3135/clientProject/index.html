@@ -4,95 +4,85 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="spices.css" rel ="stylesheet">
-    <script src="spices.js"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <title>Welcome To Spice World</title>
-  </head>
-
-
-<body>
-  <div id="accordion">
-    <h3>Section 1</h3>
-    <div>
-      <p>
-      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-      </p>
-    </div>
-    <h3>Section 2</h3>
-    <div>
-      <p>
-      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-      suscipit faucibus urna.
-      </p>
-    </div>
-    <h3>Section 3</h3>
-    <div>
-      <p>
-      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-      </p>
-      <ul>
-        <li>List item one</li>
-        <li>List item two</li>
-        <li>List item three</li>
-      </ul>
-    </div>
-    <h3>Section 4</h3>
-    <div>
-      <p>
-      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-      mauris vel est.
-      </p>
-      <p>
-      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-      inceptos himenaeos.
-      </p>
-    </div>
-  </div>
+</head>
+<body onload="startTime()">
 <header>
+
+  <nav>
+      <div class="logo">
+          <p>SpiceWorld</p>
+      </div>
+      <ul>
+          <li><a href="indianSpice.html">Indian</a></li>
+
+          <li><a href="chineseSpice.html">Chinese</a></li>
+          <li><a href="filipinoSpice.html">Filipino</a></li>
+          <li><a href="herbs.html">Herbs</a></li>
+          <li><a href="aboutUs.html">Contact</a></li>
+      </ul>
+  </nav>
+  </header>
+    
+    <h3>The current time is:</h3>
+    <div id="clock"></div>
+    
+
+  <div class="navbar__menu__menu">
+    <a href="indianSpice.html">Indian<div><img src="./pictures/indiaMap.jpg" alt="pictuer" width=400 height=300></div></a>
+  </div>
+
+  <div class="navbar__menu__menu">
+  <a href="chineseSpice.html">Chinese<div><img src="./pictures/chinaMap.png" alt="pictuer" width=400 height=300></div></a>
+  </div>
+
+  <div class="navbar__menu__menu">
+  <a href="filipinoSpice.html">Filipino<div><img src="./pictures/philippinesMap.png" alt="pictuer" width=400 height=300></div></a>
+  </div>
   
-</header>
 
-<nav>
-    <div class="logo">
-        <p>SpiceWorld</p>
-    </div>
+ <button class="accordion">Indian Spices</button>
+  <div class="panel">
+    <p>Indian Spices are aromatic and fragrant.</p>
+      <ul>
+        <li>Clove</li>
+        <li>Saffron</li>
+        <li>Cardamom</li>
+        <li>Turmeric</li>
+        <li>Fenugreek</li>
+      </ul>
+  </div>
+  
+  <button class="accordion">Chinese Spices</button>
+  <div class="panel">
+    <p>Chinese Spices have their own formulas.</p>
+      <ul>
+        <li>Peppercorn</li>
+        <li>Sichuan Chili</li>
+        <li>Fennel</li>
+        <li>White Pepper</li>
+        <li>MSG</li>
+      </ul>
+  </div>
+  
+  <button class="accordion">Filipino Spices</button>
+  <div class="panel">
+    <p>Filipino Spices are rich in flavor.</p>
     <ul>
-        <li><a href="indianSpice.html">Indian</a></li>
-        <li><a href="chineseSpice.html">Chinese</a></li>
-        <li><a href="filipinoSpice.html">Filipino</a></li>
-        <li><a href="herbs.html">Herbs</a></li>
-        <li><a href="aboutUs.html">Contact</a></li>
+      <li>Bay Leaf</li>
+      <li>Lemongrass</li>
+      <li>Chili Pepper</li>
+      <li>Annatto Seeds</li>
+      <li>Tamarind</li>
     </ul>
-</nav>
-
-
-<div class="image">
+  </div>
  
-</div>
-
-
-
+  <script src="spices.js"></script>
+  
+  
 
 <footer>
-   
-    
-  </footer> 
   <p id="design"><a href="../sabinitis.com/sabinitis.html">&copy;Designed by VG Creations</a></p>
   <div class="checker">
     <a href = "https://validator.w3.org/check?uri=referer">
@@ -103,6 +93,7 @@
       <img src = "../button_validation_css.png" width = "88" height = "31" alt ="validator css">   
     </a>
   </div>  
+</footer> 
   
 </body>
 </html>
