@@ -145,6 +145,16 @@ a {
     color: darkkhaki;
   }
 
+  h3 {
+    color: #d9d9d9; 
+
+  }
+  .proposal ul li{
+    list-style: inside;
+
+  }
+
+
 
 
   
